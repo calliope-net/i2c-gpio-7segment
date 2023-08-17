@@ -1,6 +1,8 @@
 
 > Diese Seite bei [https://calliope-net.github.io/i2c-gpio-7segment/](https://calliope-net.github.io/i2c-gpio-7segment/) öffnen
 
+![](i2c-gpio-7segment-640.jpg)
+
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
