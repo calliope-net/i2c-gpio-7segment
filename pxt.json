@@ -2,8 +2,9 @@
     "name": "i2c-gpio-7segment",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "key-qwiickeypad": "github:calliope-net/key-qwiickeypad#9651fdc7ebbd4368c21dfe7c9fe77d32002b494d",
+        "8io-qwiicgpio": "github:calliope-net/8io-qwiicgpio#4c7a68083d92acc9ff1f185fbca185fbd35c4081",
+        "bit": "github:calliope-net/bit#v1.0.1"
     },
     "files": [
         "main.blocks",
@@ -14,10 +15,11 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "6.0.17",
-        "targetId": "microbit"
+        "target": "4.0.35",
+        "targetId": "calliopemini"
     },
     "supportedTargets": [
+        "calliopemini",
         "microbit"
     ],
     "preferredEditor": "blocksprj"
