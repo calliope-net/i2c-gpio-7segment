@@ -1,5 +1,5 @@
 {
-    "name": "i2c-gpio-7segment",
+    "name": "i2c-keypad-gpio-7segment",
     "dependencies": {
         "core": "*",
         "key-qwiickeypad": "github:calliope-net/key-qwiickeypad#9651fdc7ebbd4368c21dfe7c9fe77d32002b494d",
