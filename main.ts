@@ -4,9 +4,9 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
 function leseKeypad () {
     z = qwiickeypad.getButton(qwiickeypad.eADDR.KEY_Qwiic)
     if (bit.between(z, 48, 57)) {
-        qwiicgpio.writeOUTPUT_PORT(qwiicgpio.eADDR.GPIO_Qwiic, qwiicgpio.not(qwiicgpio.siebenSegment(z - 48, false)))
+        qwiicgpio.writeOUTPUT_PORT(qwiicgpio.eADDR.GPIO_Qwiic, qwiicgpio.siebenSegment(z - 48, false))
     } else {
-        qwiicgpio.writeOUTPUT_PORT(qwiicgpio.eADDR.GPIO_Qwiic, qwiicgpio.not(qwiicgpio.siebenSegment(64, true)))
+        qwiicgpio.writeOUTPUT_PORT(qwiicgpio.eADDR.GPIO_Qwiic, qwiicgpio.siebenSegment(64, true))
     }
 }
 pins.onPulsed(DigitalPin.P1, PulseValue.Low, function () {
@@ -31,3 +31,4 @@ qwiicgpio.eIO.OUT,
 qwiicgpio.eIO.OUT,
 qwiicgpio.eIO.OUT
 )
+pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
