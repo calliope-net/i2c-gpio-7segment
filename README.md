@@ -7,9 +7,15 @@ Diese Seite bei [https://calliope-net.github.io/i2c-keypad-gpio-7segment/](https
 
 * [SparkFun Qwiic Keypad - 12 Button](https://www.sparkfun.com/products/15290)
 * [SparkFun Qwiic GPIO](https://www.sparkfun.com/products/17047)
+* 7-Segment-Anzeige ist nicht erhältlich
+
+Kabel und Adapter
+
+* [Qwiic Cable - Grove Adapter](https://www.sparkfun.com/products/15109)
+* [Qwiic Cable Kit](https://www.sparkfun.com/products/15081)
 
 Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. 
-Dazu kann ein [i2c-Hub](https://wiki.seeedstudio.com/Grove-I2C-Hub-6Port/) benutzt werden.
+i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
 Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
 
 #### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
@@ -29,13 +35,15 @@ Um dieses Repository in MakeCode zu importieren.
 
 ### Bedienung der Calliope-App 'i2c-keypad-gpio-7segment'
 
-
-
+**GPIO** bedeutet: 'General-purpose input/output'. Alle 8 Ports sind als OUT konfiguriert. 
+Nach Drücken einer Taste auf dem KeyPad wird die entsprechende Ziffer in der 7-Segment-Anzeige angezeigt. Eine Funktion zur 7-Segment-Codierung ist in der Erweiterung calliope-net/8io-qwiicgpio enthalten.
+**Hardware-Interrupt** ist mit Calliope Pin 1 verdrahtet und löst die Abfrage der Taste aus. Das KeyPad speichert mehrere Tastendrücke, die noch nicht abgeholt wurden.
 
 ### Erweiterungen
 
 Die Calliope-App 'i2c-keypad-gpio-7segment' lädt folgende Erweiterungen:
 
+* [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
 * [https://github.com/calliope-net/key-qwiickeypad](https://calliope-net.github.io/key-qwiickeypad/)
 * [https://github.com/calliope-net/8io-qwiicgpio](https://calliope-net.github.io/8io-qwiicgpio/)
 
