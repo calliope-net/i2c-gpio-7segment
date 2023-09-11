@@ -16,6 +16,7 @@ Kabel und Adapter
 
 Alle i2c Module werden parallel am linken Grove Steckverbinder A0 angeschlossen. 
 i2c Module mit zwei Buchsen (z.B. Qwiic) können hintereinander gesteckt werden.
+
 Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Powerbank) angeschlossen sein.
 
 #### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
@@ -33,7 +34,7 @@ Um dieses Repository in MakeCode zu importieren.
 * **calliope-net/i2c-keypad-gpio-7segment**
 * füge sie auf der MakeCode Webseite ein (Strg-V) und klicke auf **Los geht's!**
 
-### Bedienung der Calliope-App 'i2c-keypad-gpio-7segment'
+### Bedienung der Calliope-App 'i2c-keypad-gpio-7segment'.
 
 **GPIO** bedeutet: 'General-purpose input/output'. Alle 8 Ports sind als OUT konfiguriert. 
 Nach Drücken einer Taste auf dem KeyPad wird die entsprechende Ziffer in der 7-Segment-Anzeige angezeigt. Eine Funktion zur 7-Segment-Codierung ist in der Erweiterung calliope-net/8io-qwiicgpio enthalten.
