@@ -37,7 +37,7 @@ Um dieses Repository in MakeCode zu importieren.
 
 **GPIO** bedeutet: 'General-purpose input/output'. Alle 8 Ports sind als OUT konfiguriert. 
 Nach Drücken einer Taste auf dem KeyPad wird die entsprechende Ziffer in der 7-Segment-Anzeige angezeigt. Eine Funktion zur 7-Segment-Codierung ist in der Erweiterung calliope-net/8io-qwiicgpio enthalten.
-**Hardware-Interrupt** ist mit Calliope Pin 1 verdrahtet und löst die Abfrage der Taste aus. Das KeyPad speichert mehrere Tastendrücke, die noch nicht abgeholt wurden.
+**Hardware-Interrupt** ist mit Calliope Pin 1 verdrahtet und löst die Abfrage der Taste aus. Das KeyPad speichert mehrere Tastendrücke, bis sie vom Programm abgeholt wurden.
 
 ### Erweiterungen
 
