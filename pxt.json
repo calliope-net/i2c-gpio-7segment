@@ -3,9 +3,9 @@
     "version": "0.0.2",
     "dependencies": {
         "core": "*",
-        "key-qwiickeypad": "github:calliope-net/key-qwiickeypad#9651fdc7ebbd4368c21dfe7c9fe77d32002b494d",
-        "8io-qwiicgpio": "github:calliope-net/8io-qwiicgpio#4c7a68083d92acc9ff1f185fbca185fbd35c4081",
-        "bit": "github:calliope-net/bit#v1.0.1"
+        "key-qwiickeypad": "github:calliope-net/key-qwiickeypad#v1.0.2",
+        "8io-qwiicgpio": "github:calliope-net/8io-qwiicgpio#v1.0.2",
+        "bit": "github:calliope-net/bit#v1.0.6"
     },
     "files": [
         "main.blocks",
@@ -16,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.35",
+        "target": "4.0.29",
         "targetId": "calliopemini"
     },
     "supportedTargets": [
