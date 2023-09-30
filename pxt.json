@@ -3,9 +3,9 @@
     "version": "0.0.2",
     "dependencies": {
         "core": "*",
-        "key-qwiickeypad": "github:calliope-net/key-qwiickeypad#v1.0.2",
-        "8io-qwiicgpio": "github:calliope-net/8io-qwiicgpio#v1.0.2",
-        "bit": "github:calliope-net/bit#v1.0.6"
+        "bit": "github:calliope-net/bit#v1.0.6",
+        "keypad": "github:calliope-net/keypad",
+        "gpio": "github:calliope-net/gpio"
     },
     "files": [
         "main.blocks",
