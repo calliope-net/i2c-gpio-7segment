@@ -4,7 +4,7 @@
     "dependencies": {
         "core": "*",
         "bit": "github:calliope-net/bit#v1.0.6",
-        "keypad": "github:calliope-net/keypad#v1.1.0",
+        "keypad": "github:calliope-net/keypad#v1.1.1",
         "gpio": "github:calliope-net/gpio#v1.1.2"
     },
     "files": [
