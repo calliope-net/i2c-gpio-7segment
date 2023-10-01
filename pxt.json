@@ -1,6 +1,6 @@
 {
     "name": "i2c-keypad-gpio-7segment",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependencies": {
         "core": "*",
         "bit": "github:calliope-net/bit#v1.0.6",
