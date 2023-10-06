@@ -45,8 +45,8 @@ Nach Drücken einer Taste auf dem KeyPad wird die entsprechende Ziffer in der 7-
 Die Calliope-App 'i2c-keypad-gpio-7segment' lädt folgende Erweiterungen:
 
 * [https://github.com/calliope-net/bit](https://calliope-net.github.io/bit/)
-* [https://github.com/calliope-net/key-qwiickeypad](https://calliope-net.github.io/key-qwiickeypad/)
-* [https://github.com/calliope-net/8io-qwiicgpio](https://calliope-net.github.io/8io-qwiicgpio/)
+* [https://github.com/calliope-net/keypad](https://calliope-net.github.io/keypad/)
+* [https://github.com/calliope-net/gpio](https://calliope-net.github.io/gpio/)
 
 > [Upates für Erweiterungen; Erweiterungen aus einem Projekt löschen.](https://calliope-net.github.io/i2c-liste#updates)
 
