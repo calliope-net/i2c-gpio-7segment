@@ -21,8 +21,8 @@ Für die Stromversorgung sollte Calliope über USB Kabel (an Computer oder Power
 
 #### .hex-Datei direkt auf Calliope laden, oder in MakeCode importieren.
 
-* [i2c-keypad-gpio-7segment.hex](i2c-keypad-gpio-7segment.hex)
-* [Schnappschuss (Bildschirmfoto mit den Blöcken)](i2c-keypad-gpio-7segment.png)
+* [mini-i2c-keypad-gpio-7segment.hex](mini-i2c-keypad-gpio-7segment.hex)
+* [Schnappschuss (Bildschirmfoto mit den Blöcken)](mini-i2c-keypad-gpio-7segment.png)
 
 #### Dieses Projekt von GitHub importieren, bearbeiten, mit Calliope testen.
 
